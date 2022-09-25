@@ -1,0 +1,31 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.Header .header__left {
+    flex: 0.5;
+    background-color: white;
+    color: gray;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    padding: 10px;
+}
+
+.Header .header__left > input {
+    border: none;
+    width: 100%;
+}
+
+.Header .header__left > input:focus {
+    outline: none;
+}
+
+
+.Header .header__right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

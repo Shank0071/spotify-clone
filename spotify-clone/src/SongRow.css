@@ -1,0 +1,35 @@
+.SongRow {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem
+}
+
+.SongRow:hover {
+ cursor: pointer;
+ opacity: 0.8;
+ background-color: rgba(0,0,0,0.2);   
+ padding: 1rem;
+ transition: all 0.2s ease-in;
+}
+
+.SongRow > img {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+}
+
+.SongRow h1 {
+    font-size: 16px;
+    color: white;
+}
+
+
+.SongRow p {
+    font-size: 14px;
+    color: gray;
+}
+
+.SongRow .songRow__info span {
+    margin-left: 10px;
+}
+

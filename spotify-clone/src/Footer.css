@@ -1,0 +1,42 @@
+.Footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    width: 97%;
+    background-color: #282828;
+    padding: 20px;
+}
+
+.Footer .footer__left {
+    flex: 0.3;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.Footer .footer__center {
+    flex: 0.4;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white
+}
+
+.Footer .footer__green {
+    color: green
+}
+
+.Footer .footer__right {
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white
+}
+
+.Footer .footer__right .slider {
+    color: green
+}
