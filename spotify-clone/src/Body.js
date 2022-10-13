@@ -1,7 +1,6 @@
 import React from 'react'
 import './Body.css'
 import Header from './Header'
-import image from './yourDiscoverWeekly.jpg'
 import { useDataLayerValue } from './DataLayer'
 import PlayCircleOutline from '@mui/icons-material/PlayCircleOutline'
 import FavoriteIcon from '@mui/icons-material/Favorite';
@@ -9,8 +8,7 @@ import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import SongRow from './SongRow'
 
 export default function Body({ spotify }) {
-  const [{ discover_weekly }, dispatch] = useDataLayerValue()
-  console.log(discover_weekly)
+  const [{ discover_weekly }] = useDataLayerValue()
 
 
   return (

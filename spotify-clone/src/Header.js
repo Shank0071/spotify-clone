@@ -5,7 +5,7 @@ import { Avatar } from '@mui/material';
 import { useDataLayerValue } from './DataLayer';
 
 export default function Header() {
-    const [{ user }, dispatch] = useDataLayerValue()
+    const [{ user }] = useDataLayerValue()
 
   return (
     <div className="Header">

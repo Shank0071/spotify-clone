@@ -7,8 +7,7 @@ import LibraryBooksOutlinedIcon from '@mui/icons-material/LibraryBooksOutlined';
 import { useDataLayerValue } from './DataLayer'
 
 function Sidebar() {
-  const [{ playLists }, dispatch] = useDataLayerValue()
-  console.log(playLists)
+  const [{ playLists } ] = useDataLayerValue()
 
   return (
     <div className="Sidebar">
